@@ -1,0 +1,22 @@
+{
+    "globals": {
+      "describe": true,
+      "it": true,
+      "beforeEach": true,
+      "afterEach": true,
+      "before": true,
+      "after": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "modules": true
+        }
+    },
+    "rules": {
+        "no-console": "off",
+        "react/prefer-stateless-function": "off",
+        "new-cap": "off"
+    }
+}
